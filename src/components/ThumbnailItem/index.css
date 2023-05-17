@@ -1,0 +1,35 @@
+.card-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.country-img {
+  width: 100%;
+  margin-bottom: 0px;
+}
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0px;
+  padding: 10px 10px;
+  background-color: #1f1f2f;
+}
+.country-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #fff;
+}
+.remove-button {
+  border: 1px solid #f1f5f9;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 500;
+}

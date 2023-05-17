@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-color: #161624;
+  background-size: cover;
+  padding: 20px 40px;
+}
+.country-heading {
+  color: #fff;
+  font-family: 'Roboto';
+}
+.country-names-list-container {
+  background-color: #1f1f2f;
+  border: 0.5px solid #334155;
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0px;
+  border-radius: 8px;
+}
+.country-names-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  background-color: #1f1f2f;
+  border: 1px solid #334155;
+  border-radius: 1px;
+  padding: 0px 20px;
+}
+.country-name-item {
+  color: #fff;
+  font-family: 'Roboto';
+}
+.visit-button {
+  background-color: #3b82f6;
+  color: #fff;
+  width: 80px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+}
+.visited-button {
+  background-color: transparent;
+  color: #fff;
+  width: 80px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+}
+.visited-countries-container {
+  display: flex;
+  flex-direction: column;
+}
+.visited-countries-heading {
+  color: #fff;
+  font-family: 'Roboto';
+}
+.thumbnail-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+.no-visit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  height: 100vh;
+}
+.no-visits-description {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
